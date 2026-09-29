@@ -2,16 +2,19 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliation</a>. Address. Contacts.
+headline: Biography # custom page headline (falls back to site title if unset)
+subtitle: # affiliation is shown under the profile photo instead
 
 profile:
-  align: right
-  # image: prof_pic.jpg # uncomment and put your photo in assets/img/ to show a profile picture
-  image_circular: false # crops the image to make it circular
+  align: left # photo on the left, text flows to the right
+  image: prof_pic.jpg # save your photo as assets/img/prof_pic.jpg, then uncomment this line
+  image_circular: true # crops the image to make it circular
   more_info: >
-    <p>Your office / department</p>
-    <p>Your university / institution</p>
-    <p>Your City, Country</p>
+    <p class="font-weight-bold" style="font-size: 2.5rem;">Henghui Zhu</p>
+    <p class="cn-name">朱恒辉</p>
+    <p>Undergraduate Student, Turing Class</p>
+    <p><a href="https://www.sustech.edu.cn/">Southern University of Science and Technology</a></p>
+    <p>Shenzhen, China</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
@@ -27,22 +30,20 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Hello! I am **Henghui Zhu**.
+Hello! I am an undergraduate student in the Turing Class
+of the Department of Computer Science and Engineering at Southern University of
+Science and Technology (SUSTech), expecting to graduate in June 2028.
 
-Write a few sentences about yourself here: your current position, your research
-interests, and what this website is for.
+
 
 ## Interests
 
-- Your research interest 1
-- Your research interest 2
-- Your research interest 3
+- Multimodal LLM
+- Medical vision-language learning
+- Medical visual question answering
+- Parameter-efficient fine-tuning
 
 ## Education
 
-- Your degree, Your university, Year
-
-## Contact
-
-- Email: your.email@example.com
-- GitHub: [@Hui66cs](https://github.com/Hui66cs)
+- B.Eng. in Computer Science and Engineering, Turing Class,
+  Southern University of Science and Technology, 2024 - 2028 (expected)
