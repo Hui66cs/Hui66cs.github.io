@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://hui66cs.github.io/al-folio/sitemap.xml
+Sitemap: https://hui66cs.github.io/sitemap.xml
