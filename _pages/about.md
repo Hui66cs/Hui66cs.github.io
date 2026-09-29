@@ -34,8 +34,6 @@ Hello! I am an undergraduate student in the Turing Class
 of the Department of Computer Science and Engineering at Southern University of
 Science and Technology (SUSTech), expecting to graduate in June 2028.
 
-
-
 ## Interests
 
 - Multimodal LLM

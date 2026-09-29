@@ -30,13 +30,13 @@
   .more-info {
     width: 100%;
     text-align: center; // 主题把 p 设为 inline-block，居中必须在父级生效
-    font-size: 0.95rem;
+    font-size: 1rem;
   }
 
   // 英文名下方的中文名
   .more-info .cn-name {
-    font-size: 2.5rem;      // 字号
-    font-weight: 550;        // 字重（400 常规 / 700 加粗）
+    font-size: 2.5rem; // 字号
+    font-weight: 550; // 字重（400 常规 / 700 加粗）
     //letter-spacing: 0.1em;   // 字间距
     color: var(--global-text-color); // 颜色，可改成具体值如 #555
     // font-family: "Noto Serif SC", serif; // 想换字体时取消注释
@@ -48,21 +48,25 @@
 // 正文 1rem，字重均为 500/400）。取消注释并改数值即可生效。
 // ============================================================
 .post {
-  h1 {                        // Biography 页面大标题
-    font-size: 3rem;
+  h1 {
+    // Biography 页面大标题
+    font-size: 2.75rem;
     font-weight: 500;
   }
-  h2 {                        // Interests / Education 等小节标题
-    font-size: 2.5rem;
+  h2 {
+    // Interests / Education 等小节标题
+    font-size: 2.25rem;
     font-weight: 500;
   }
-  h3 {                        // 更小的三级标题
+  h3 {
+    // 更小的三级标题
     font-size: 1.75rem;
     font-weight: 500;
   }
   p,
-  li {                        // 正文段落和列表
-    font-size: 1.25rem;
+  li {
+    // 正文段落和列表
+    font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.6;
   }

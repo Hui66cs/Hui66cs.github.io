@@ -4,5 +4,5 @@
 # cv_pdf: /assets/pdf/cv.pdf # path to your CV PDF file
 email: zhuhhcs@gmail.com # your email address
 github_username: Hui66cs # your GitHub username
-rss_icon: true # comment this line to hide the RSS icon
+# rss_icon: true # re-enable once there are blog posts (the feed is empty for now)
 # scholar_userid: # your Google Scholar ID
